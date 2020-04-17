@@ -1,15 +1,15 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  SELECT MAX (gpa) FROM students;
+  SELECT MAX (gpa)
 end
 
 def lowest_student_gpa
-  SELECT MIN (gpa) FROM students;
+  SELECT MIN (gpa)
 end
 
 def average_student_gpa
-    SELECT AVG (gpa) FROM students;
+    SELECT AVG (gpa)
 end
 
 def total_tardies_for_all_students
